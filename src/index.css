@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+  background-color: lightblue;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 30px;
+}
+
+td {
+  width: 220px;
+  background-color: white;
+  padding: 0px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  text-shadow: 2px 2px 2px rgb(215, 215, 215);
+
+}
+
+h5 {
+  font-size: large;
+  margin: 6px;
+}
+
+h6 {
+  font-size: x-small;
+  margin-top: 10px;
+}
+
+.HQ-Image {
+  width: 230px;
+  height: 225px;
+  padding: 0px;
+  margin: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+button{
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  font-size: small;
+}
